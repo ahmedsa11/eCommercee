@@ -1,0 +1,65 @@
+.cardd {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  width: 250px;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+.cardd figure {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  left: 15px;
+  top: 15px;
+  z-index: 60;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  cursor: pointer;
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: 0.5s;
+}
+.cardd:hover figure {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.cardd figure svg {
+  width: 30px;
+  color: #333;
+}
+.cardd figure:hover svg {
+  color: #c0a392;
+}
+.sale {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #c0a392;
+  padding: 4px 11px;
+  z-index: 5;
+  color: #fff;
+}
+.cardbody {
+  text-align: center;
+}
+.cardbody img {
+  object-fit: cover;
+}
+.cardd h5 {
+  color: #363737;
+  overflow-wrap: anywhere;
+}
+.cardd ins {
+  font-size: 17px;
+  color: #6e6e6e;
+}
+.cardd del {
+  font-size: 17px;
+  color: #acacac;
+}

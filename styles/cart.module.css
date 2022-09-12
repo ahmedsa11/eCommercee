@@ -1,0 +1,45 @@
+.inputWrap {
+  width: 40px;
+  position: relative;
+}
+.input {
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  padding: 3px 6px;
+  color: #bbb;
+  font-size: 12px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.input:focus {
+  outline: none;
+}
+.updateQuantity {
+  justify-content: flex-end;
+}
+.maxQuantity {
+  position: absolute;
+  left: -115%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #e6e6e6;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 9px;
+  border-radius: 4px;
+}
+.maxQuantity::before {
+  content: "";
+  border-width: 6px;
+  border-color: transparent transparent transparent #e6e6e6;
+  border-style: solid;
+  position: absolute;
+  left: 99%;
+}
+
+.applyCoupon .inputWrap {
+  width: 30%;
+}

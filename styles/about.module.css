@@ -1,0 +1,22 @@
+
+.about p{
+  font-size: 1.5em;
+  color: #5a5a5a;
+  }
+  .about h1{
+    color: #5a5a5a;
+  }
+ .about i{
+  font-size: 83px;
+  border: 1px solid #5a5a5a;
+  border-radius: 50%;
+  padding: 0px; 
+  margin: 10px;
+ }
+ .about i::before{
+  border: 1px solid #5a5a5a;
+  border-radius: 50%;
+  padding: 17px;
+  margin: 2px;
+  display: block;
+ }

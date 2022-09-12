@@ -1,0 +1,106 @@
+.details i{
+    display: block;
+    margin-top: 22px;
+    font-size: 19px;
+    color: #c7ae9e;
+}
+.details i span{
+    color: #3a3a3a !important;
+}
+.details{
+    margin-bottom:20px;
+}
+
+.firstg{
+    display: flex;
+    justify-content: space-between;
+}
+.secondg{
+    display: flex;
+    justify-content: space-between;
+}
+.w{
+    width:250px !important;
+    border: 1px solid rgb(113, 103, 103) !important;
+    border-radius: 5px !important;
+    padding: 7px !important;
+}
+.s{
+    width:400px !important;
+    border: 1px solid rgb(113, 103, 103) !important;
+    border-radius: 5px !important;
+    padding: 7px !important;
+}
+.m{
+    width:100% !important;
+    border: 1px solid rgb(113, 103, 103) !important;
+    border-radius: 5px !important;
+    resize: none !important;
+}
+.inpst button{
+    width: 150px !important;
+    border:none;
+    border-radius: 5px !important;
+    padding: 7px !important;
+    background-color: #c7ae9e !important;
+    color: white !important;
+    font-size: 15px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px ;
+}
+.inpst label{
+    color: #c7ae9e;
+}
+@media only screen and (max-width: 600px) {
+    .firstg{
+        display: block;
+    }
+    .secondg{
+        display: block;
+    }
+    .w{
+        width:100% !important;
+        border: 1px solid rgb(113, 103, 103) !important;
+        border-radius: 5px !important;
+        padding: 7px !important;
+    }
+    .s{
+        width:100% !important;
+        border: 1px solid rgb(113, 103, 103) !important;
+        border-radius: 5px !important;
+        padding: 7px !important;
+    }
+    .m{
+        width:100% !important;
+        border: 1px solid rgb(113, 103, 103) !important;
+        border-radius: 5px !important;
+    }
+    .inpst button{
+        width: 100% !important;
+        border:none;
+        border-radius: 5px !important;
+        padding: 7px !important;
+        background-color: rgb(113, 103, 103) !important;
+        color: white !important;
+        font-size: 15px !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px ;
+    
+    }
+  }
+  .error{
+    color: red;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .contsbtn{
+    width: 150px !important;
+    border: none;
+    border-radius: 5px !important;
+    padding: 7px !important;
+    background-color: #c7ae9e !important;
+    color: white !important;
+    font-size: 15px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px;
+  }

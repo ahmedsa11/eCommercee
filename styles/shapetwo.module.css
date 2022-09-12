@@ -1,0 +1,21 @@
+.shapetwo{
+    font-size: 17px;
+    padding: 32px;
+}
+.shapetwo img{
+
+    object-fit: cover;
+}
+.janki{
+    font-size: 20px;
+    font-weight: bold;
+    color: #c0a392;
+}
+.im{
+    padding: 20px;
+    width: 150px !important;
+    border: 2px solid #8f8f8f !important;
+    border-radius: 15px;
+    border: 2px solid #333;
+    height: 150px;
+}

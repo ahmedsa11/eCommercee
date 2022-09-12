@@ -1,0 +1,29 @@
+.wishList {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.wishList section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.wishList section h1 {
+  color: #444;
+  margin: 0;
+  line-height: 1;
+}
+
+.wishList section p {
+  color: #888;
+}
+
+.wishList main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}

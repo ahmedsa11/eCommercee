@@ -1,0 +1,80 @@
+.landing{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    z-index: 1;
+    background-color: rgb(0,0,0,0.6);
+}
+.carousel{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-25%,-100%);
+    z-index: 3;
+    color: aliceblue;
+    display: block;
+    font-size: 1.5em;
+    text-align:initial;
+}
+.carousel button{
+    border: beige;
+    border-radius: 14px;
+    padding: 9px 13px;
+    background-color: bisque;
+}
+.carousel-inner img{
+   position: relative;
+   height: 60vh;
+    width: 100%;
+   object-fit: cover;
+}
+.imgg{
+    position: relative;
+    height: 60vh;
+     width: 100%;
+    object-fit: cover;
+}
+.ba{
+    position: relative;
+    height: 60vh;
+     width: 100%;
+    object-fit: cover;
+}
+.carousel-indicators{
+    z-index: 2;
+}
+.z{
+    z-index: 3;
+}
+/*search*/
+.subbox:hover > .ipt,.ipt:focus{
+    width: 300px;
+    padding:0 10px
+  }
+  .subbox i{
+    background-color:#FF9B00;
+    width: 40px;
+    line-height: 40px;
+    color:#fff;
+    text-align: center;
+  
+  }
+  .subbox{
+      margin-top: 15px;
+  }
+.ipt{
+    border:0;
+    outline: 0;
+    border-radius: 0;
+      width: 0;
+  padding: 0;
+  transition: .5s;
+  }
+ input.ipt{
+    padding: 0
+  }
